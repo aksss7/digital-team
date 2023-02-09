@@ -1,0 +1,60 @@
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header__logo h1{
+    font-size: 20px;
+    color: var(--color-blue-50);
+}
+
+.header__nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+.header__nav ul a:hover {
+    color: var(--color-blue-70);
+}
+
+.header__button {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.login__button {
+    background: none;
+    color: var(--color-blue-50);
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.login__button:hover {
+    color: var(--color-blue-70);
+}
+
+.signin__button:hover {
+    background: var(--color-blue-70);
+}
+
+.signin__button {
+    padding: 14px 24px;
+    border-radius: 10px;
+    background-color: var(--color-blue-50);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.4s;
+}
